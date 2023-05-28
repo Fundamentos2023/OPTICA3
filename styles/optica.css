@@ -1,0 +1,92 @@
+
+.pointer{
+    cursor: pointer;
+}
+
+#imagen{
+
+    background-image: linear-gradient(rgba(154, 227, 241, 0.75), rgb(250, 251, 252)),
+    url("img/oftalmologia.jpg");
+
+}
+
+#imagenGabela{
+    background-image: linear-gradient(rgba(154, 227, 241, 0.75), rgb(250, 251, 252)),
+    url("img/imagenfondo.jpg");
+}
+
+#imagenEspecialista{
+
+    background-image: linear-gradient(rgba(154, 227, 241, 0.75), rgb(250, 251, 252)),
+    url("img/fondoespecialista.jpg");
+
+}
+/*Imagen logo*/
+.img-logo {
+    display: block;
+    margin-left: none;
+    width: 350px;
+    height: 200;
+  }
+
+#colorfooter{
+    
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+
+/*Codigo de tabla*/
+table, td{
+    border: 3px;
+    border-collapse: collapse;
+}
+
+/*Terminado*/
+
+#imagencontactos{
+    width: 40px;
+    height: 40px;
+}
+
+#colorletra{
+    color: aliceblue;
+}
+
+#colortabla{
+    color: rgb(252, 252, 252);
+    background: rgb(54, 53, 53);
+    border-color: rgb(255, 251, 0);
+}
+
+#colorcontacto{
+    color: rgb(11, 15, 247);
+    
+}
+
+.table{
+    
+    border: 1px;
+    word-spacing: 4px;
+    border-color: rgb(255, 251, 0);
+    padding: 10px;
+}
+
+#colortablatbody{
+    color: rgb(252, 252, 252);
+    background: rgba(92, 91, 91, 0.849);
+    border-color: rgb(255, 251, 0);
+}
+
+#tamañoimagen{
+    width: 4px;
+    height: 4px;
+}
+
+/* estilos del footer */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}

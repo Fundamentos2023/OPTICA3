@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Galeria Óptica 1</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+   <!-- !-- MENU NAVEGACION -- -->
+   <header>
+      <nav class="navbar navbar-expand-lg mb-3" style="background-color: #c3dfea" data-bs-theme="light">
+         <div class="container-fluid">
+            <!-- LOGO OPTICA -->
+            <a class="navbar-brand" href="../OPTICA3/index.html">
+               <img src="img/Logo-Optica/logo-optica.png" alt="" width="190" height="50">
+            </a>
+            <!-- BOTON DE MENU DESPLEGABLE -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- APARTADOS DE NAVEGACION -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: Verdana; ">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                  <li class="nav-item">
+                     <a class="nav-link" href="../OPTICA3/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="../OPTICA3/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="../OPTICA3/Inicio.html">Especialistas</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="../OPTICA3/index-modulo-galeria1.html">Galería de Productos</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!-- FIN DE MENÚ DE NAVEGACIÓN -->
+
+
+
+   <div class="container">
+
+      <!-- Esta es la uitloma fila en donde va el carrusel -->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+               aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+               aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+               aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="img/carrusel/oakley.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="img/carrusel/puma.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="img/carrusel/rayban.jpg" class="d-block w-100" alt="...">
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+
+      <!-- Fin carrusel -->
+
+      <!-- cambiar de pagina debajo del carrusel -->
+      <div class="row-cambiar-pagina">
+         <!-- cambiar de pagina -->
+         <br>
+         <nav aria-label="Page navigation example">
+            <ul class="pagination">
+               <li class="page-item">
+                  <a class="page-link" href="index-modulo-galeria1.html" aria-label="Previous">
+                     <span aria-hidden="true">&laquo;</span>
+                  </a>
+               </li>
+               <li class="page-item"><a class="page-link" href="index-modulo-galeria1.html">1</a></li>
+               <li class="page-item"><a class="page-link" href="index-modulo-galeria2.html">2</a></li>
+
+               <li class="page-item">
+                  <a class="page-link" href="index-modulo-galeria2.html" aria-label="Next">
+                     <span aria-hidden="true">&raquo;</span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+         <!-- fin cambio página -->
+
+      </div>
+      <!-- fin del cambio de pagina  -->
+
+
+      <!-- inicio galeria de imagenes -->
+      <section class="gallery min-vh-100">
+         <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+               <div class="col">
+                  <img src="img/gafas/img01.jpg" class="gallery-item" alt="gallery" lentes>
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas OAKLEY HYDRA</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$169,90</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img02.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas OAKLEY WILDRYE</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$179,90</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img03.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas deportivas Oakley Wildrye</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$115,50</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img04.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas de sol Hawkers Comaneci</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$55,93</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img05.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>gafas de sol Hawkers x Anuel</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$66,43</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img06.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas deportivas Oakley Sutro S</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$149,50</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img07.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas de sol Hawkers Comaneci</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$55,93</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img08.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas deportivas Oakley Turbine</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$119,90</center>
+                     </p>
+                  </div>
+               </div>
+               <div class="col">
+                  <img src="img/gafas/img09.jpg" class="gallery-item" alt="gallery">
+                  <div class="card-body">
+                     <p class="card-text">
+                        <center><b>Gafas deportivas Oakley Turbine</b></center>
+                     </p>
+                     <p class="card-text">
+                        <center>$149,89</center>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+      <!-- cambiar de pagina -->
+      <nav aria-label="Page navigation example">
+         <ul class="pagination">
+            <li class="page-item">
+               <a class="page-link" href="index-modulo-galeria1.html" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+               </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="index-modulo-galeria1.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="index-modulo-galeria2.html">2</a></li>
+
+            <li class="page-item">
+               <a class="page-link" href="index-modulo-galeria2.html" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+               </a>
+            </li>
+         </ul>
+      </nav>
+      <!-- fin cambio página -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <img src="img/1.jpg" class="modal-img" alt="modal img">
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+   </div>
+   </div>
+
+   <!-- inicio del footer -->
+   <footer class="pie-pagina">
+      <div class="grupo-1">
+         <div class="box">
+            <figure>
+               <a href="#">
+                  <img src="img/Logo-Optica/logo-optica.png" alt="Logo de SLee Dw">
+               </a>
+            </figure>
+         </div>
+         <div class="box">
+            <h2>UBICACIÓN</h2>
+            <p>Calle San _Isidro Labrador y Juan Abel Echeverría a pocos pasos de la Policía Judicial</p>
+            <p>Latacunga - Ecuador</p>
+         </div>
+         <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+               <a href="https://www.facebook.com/optica.lucia.3" class="fa fa-facebook"></a>
+               <a href="https://www.instagram.com/opticalosandes/" class="fa fa-instagram"></a>
+               <a href="https://twitter.com/Opticas_Devlyn" class="fa fa-twitter"></a>
+               <a href="https://www.youtube.com/watch?v=fXUI3lkceHM" class="fa fa-youtube"></a>
+            </div>
+         </div>
+      </div>
+      <div class="grupo-2">
+         <small>&copy; 2023 <b>UTC</b> - Todos los Derechos Reservados.</small>
+      </div>
+   </footer>
+   <!-- fin del footer -->
+
+   <div class="boton-ws"> <!--whatsapp-->
+      <a href="https://bit.ly/2JGsv6Q" target="_blank" rel="noopener noreferrer">
+         <img src="img/Logo-Optica/whatsapp.png" alt="Escríbenos">
+         <!--**ruta, según carpeta donde se ubique el archivo de imagen-->
+      </a>
+   </div>
+
+
+   <script src="script/bootstrap.bundle.min.js"></script>
+   <script src="script/main.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
